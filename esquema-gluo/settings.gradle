@@ -1,0 +1,1 @@
+include 'server-eureka', 'server-config', 'service-core', 'service-web', 'api-gateway'

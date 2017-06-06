@@ -1,0 +1,12 @@
+---
+spring:
+  cloud:
+    config:
+      uri: http://localhost:8001
+  application:
+    name: gateway
+server:
+  port: 8020
+zuul:
+  sensitive-headers:
+#  prefix: /services
